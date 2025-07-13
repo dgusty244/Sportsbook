@@ -1,0 +1,3 @@
+pandas
+numpy
+ipython   # if you want to keep using display() in Jupyter; optional for pure CLI
