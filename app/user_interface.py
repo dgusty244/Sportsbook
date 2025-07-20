@@ -14,14 +14,23 @@ def dashboard():
     if pushes > 0:
         record += f'-{pushes}'
 
-    win_pct = (wins + (pushes / 2)) / (wins + losses + pushes)
+
+    win_pct_denominator = wins + losses + pushes
+    if win_pct_denominator > 0:
+        win_pct = (wins + (pushes / 2)) / (wins + losses + pushes)
+    else:
+        win_pct = 0
 
     pending_bet_count = len(df[df.Result.isnull()])
     pending_bet_amount = df.loc[df.Result.isnull(), 'BetAmount'].sum()
 
     tot_bet = df.loc[~df.Result.isnull(), 'BetAmount'].sum()
     tot_paid_out = df.RealPayout.sum()
-    bets_roi = (tot_paid_out - tot_bet) / tot_bet
+
+    if tot_bet >0:
+        bets_roi = (tot_paid_out - tot_bet) / tot_bet
+    else:
+        bets_roi = 0
 
     bal_df = read_balance()
     tot_deposited = bal_df.loc[bal_df.Type == 'Deposit', 'Delta'].sum()
