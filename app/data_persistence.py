@@ -62,14 +62,6 @@ def update_balance(delta, _type, bet_id=np.nan):
     new_df = pd.concat([balance_df, this_row_df], axis=0)
     write_balance(new_df)
 
-def get_current_balance():
-    df = read_balance()
-    if df.empty:
-        return 0.0
-    max_id = df.BalanceId.max()
-    balance = df.loc[df.BalanceId == max_id, 'Balance'].item()
-    return balance
-
 def delete_records(bet_id_list):
     df = read_bets()
     df = df[~df.BetId.isin(bet_id_list)]
