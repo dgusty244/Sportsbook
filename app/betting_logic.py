@@ -24,11 +24,14 @@ def place_bet():
     ml = None
     alt_bet_desc = None
 
+
     # get user inputs
     game_date = get_date(input('Game Date (Enter "t" if Today): '))
     away_team = input('Away Team: ').title()
     home_team = input('Home Team: ').title()
-    bet_type = input('Bet Type: ').lower()
+    bet_type = input('Bet Type (moneyline, point spread, over under, alternative): ').lower()
+
+
 
     if bet_type in ['ml', 'moneyline']:
         bet_type = 'Moneyline'
@@ -66,7 +69,10 @@ def place_bet():
 
     # store historical bets and get next bet id
     hist_bet_df = read_bets()
-    this_bet_id = int(hist_bet_df.BetId.max() + 1)
+    if len(hist_bet_df) > 0:
+        this_bet_id = int(hist_bet_df.BetId.max() + 1)
+    else:
+        this_bet_id = 1
 
     # calculate to_win and potential_payout
     to_win = calc_to_win(ml, bet_amount)

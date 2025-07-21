@@ -1,0 +1,126 @@
+[33mcommit 80d48e15d9445db15ed7f59a725354030e1c360d[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Merge: 220f534 befd75f
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 20 16:04:01 2025 -0700
+
+    Merge branch 'base-path'
+
+[33mcommit befd75f54466710600b61a9697cc73fdd72ec62a[m[33m ([m[1;32mbase-path[m[33m)[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 20 15:30:17 2025 -0700
+
+    fds
+
+[33mcommit 220f534141102db9bb762c5f0829f243efdbf286[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9d017d0 05b04a5
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 20 15:24:59 2025 -0700
+
+    Merge pull request #2 from dgusty244/get_current_balance
+    
+    Get current balance
+
+[33mcommit 05b04a5184453fea2d905889ed107e1d8a578dc6[m[33m ([m[1;31morigin/get_current_balance[m[33m, [m[1;32mget_current_balance[m[33m)[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 20 15:18:15 2025 -0700
+
+    commit
+
+[33mcommit 5bedd47e26cbd3c6e0cd14438086ed6245b05d24[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sat Jul 19 16:05:09 2025 -0700
+
+    make it work kind of
+
+[33mcommit 9d017d02d4fa5625e2589e977ce09c8cece432c5[m
+Merge: 42ecbef 9801519
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:52:41 2025 -0700
+
+    Merge pull request #1 from dgusty244/folderstructure
+    
+    Folderstructure
+
+[33mcommit 9801519ed5a7e9a494530b48ad946ee339487635[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:51:22 2025 -0700
+
+    Rename utils.py to app/utils.py
+
+[33mcommit e8ff79d5f64268f17309c454d667bcc65eade2df[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:51:02 2025 -0700
+
+    Create __init__.py
+
+[33mcommit c5c3512850eb2e677f004ec3bf149dfbc8f07e05[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:50:28 2025 -0700
+
+    Rename user_interface.py to app/user_interface.py
+
+[33mcommit a6d2b3370835361af77e15bef0cd1b46e43d5522[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:50:10 2025 -0700
+
+    Rename data_persistence.py to app/data_persistence.py
+
+[33mcommit e6f1a8e3e2989ecb78c00899a7ae2dc0728a6037[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:49:59 2025 -0700
+
+    Rename betting_logic.py to app/betting_logic.py
+
+[33mcommit 42ecbefc8e98c43724a46a8434a13cfd0b3d4096[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 13:44:16 2025 -0700
+
+    Update data_persistence.py
+
+[33mcommit 517e99548e8850dcb27632b523c1ce40e66ca9bf[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:57:39 2025 -0700
+
+    Update README.md
+
+[33mcommit bc1d81537e01f8f0ef6c6d93b8de30cd967a7ef3[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:57:22 2025 -0700
+
+    Create requirements.txt
+
+[33mcommit 2ba00bc71ab625d9267089ec933bd9ec64ba7504[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:57:03 2025 -0700
+
+    Create main.py
+
+[33mcommit d5039acbc264b1e49077d33927611b50b0fbe582[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:56:46 2025 -0700
+
+    Create user_interface.py
+
+[33mcommit 3d32a838bf50593bb50fb046c29cad6d6ae2f4e6[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:56:18 2025 -0700
+
+    Create betting_logic.py
+
+[33mcommit 3e316888c7db7ddda79b3d0df0d8c313c85624d7[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:55:58 2025 -0700
+
+    Create utils.py
+
+[33mcommit 1de179e31b7eb0dd70f96c14568c3509b20e99d8[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:55:39 2025 -0700
+
+    Create data_persistence.py
+
+[33mcommit 6a82920a9214a9cf2d088f662dd67d876bd5d95c[m
+Author: Drew Gustafson <drewgustafson12@gmail.com>
+Date:   Sun Jul 13 12:31:40 2025 -0700
+
+    Initial commit
