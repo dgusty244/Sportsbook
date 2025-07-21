@@ -3,7 +3,7 @@ import numpy as np
 import datetime
 import os
 
-base_path = "./"  # Adjust if needed
+base_path = "./storage/"  # Adjust if needed
 default_bets_csv = "bets.csv"
 default_balance_csv = "balance.csv"
 
