@@ -30,6 +30,9 @@ def read_balance(additional_path=default_balance_csv):
         return df
     return pd.read_csv(full_path).sort_values('Timestamp', ascending=False)
 
+def read_users():
+    pass
+
 def write_bets(df, additional_path=default_bets_csv):
     full_path = base_path + additional_path
     df.to_csv(full_path, index=False)
@@ -70,3 +73,5 @@ def delete_records(bet_id_list):
     balance_df = read_balance()
     balance_df = balance_df[~balance_df.BetId.isin(bet_id_list)]
     write_balance(balance_df)
+
+

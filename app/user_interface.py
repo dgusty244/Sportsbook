@@ -1,4 +1,4 @@
-from app.data_persistence import read_bets, read_balance
+from app.data_persistence import read_bets, read_balance, read_users()
 from app.betting_logic import place_bet, save_result, update_balance
 from app.utils import pct, get_current_balance
 from IPython.display import display
@@ -93,3 +93,16 @@ Enter a number to make a choice.
             run = False
         else:
             print("Please choose a valid option between 1 and 6.")
+
+
+
+def login_screen():
+    user_type_choice = int(input("""
+    Enter a number to make a choice.
+    1) Choose from existing users
+    2) Create new user      
+    """))
+
+    if user_type_choice == 1:
+        user_df = get_users()
+
