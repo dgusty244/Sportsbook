@@ -1,0 +1,6 @@
+-make different users able to log in.
+-no password or anything like that
+-allow peple to see other users history
+-have leaderboards and things like that
+-juyst make it so that users log in with onoly their UN. It says this already exists, do you want to continue on "user133"s session?
+-you can make your own session if you pick a unique username
